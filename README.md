@@ -12,35 +12,61 @@ subsequently, "baseline_query.py"
 
 The schema consists of 5 tables:
 1. Projects table
+
     Consisting of columns:
+
     a. project
+
     b. index project_id
 2. Subjects table
+
     Consisting of columns:
+
     a. project
+
     b. subject
+
     c. condition
+
     d. age
+
     e. sex
+
     f. treatment
+
     g. response
+
     h. index subject_id
+
     i. project_id
 3. Samples table
+
     Consisting of columns:
+
     a. sample
+
     b. sample_type
+
     c. time_from_treatment_start
+
     d. index sample_id
+
     e. subject_id
 4. Populations table
+
     Consisting of columns:
+
     a. population
+
     b. index population_id
 5. Cell Counts table
+
     Consisting of columns:
+
     a. Cell Count
+
     b. population_id
+    
     c. sample_id
 
 This type of schema enables different components of data to be kept track of without needing
